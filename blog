@@ -1,50 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Linked Text Section</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 20px;
-    }
-    .linked-section {
-      max-width: 600px;
-    }
-    .linked-section h2 {
-      font-size: 1.5rem;
-      color: #333;
-    }
-    .linked-section ul {
-      list-style-type: disc;
-      margin-left: 20px;
-    }
-    .linked-section ul li {
-      margin: 10px 0;
-    }
-    .linked-section ul li a {
-      text-decoration: none;
-      color: #800080; /* Adjust color as needed */
-    }
-    .linked-section ul li a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storyboarding in UX Design</title>
+    
+   <style>
+   
+   body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background: white;
+}
+
+header {
+    text-align: center;
+    padding: 2em 1em;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 0.9rem;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 2em auto;
+    background: white;
+    padding: 2em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main section {
+    margin-bottom: 2em;
+}
+
+.hero .hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    /* Placeholder styling for hero image */
+}
+
+main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+}
+
+main p,
+main ol li {
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+main ol li {
+    margin-bottom: 1.5em;
+}
+
+.resources ul {
+    list-style-type: bullet points;
+    padding: 0;
+}
+
+.resources li {
+    margin-bottom: 0.5em;
+}
+
+.resources a {
+    color: black;
+    text-decoration: underline;
+    font-weight: medium;
+}
+
+.resources a:hover {
+    text-decoration: underline;
+}
+ </style>
+ 
 </head>
 <body>
-  <div class="linked-section">
-    <h2>Keep reading to learn:</h2>
-    <ul>
-      <li><a href="#storyboards-definition">What are storyboards and how are they used in UX design?</a></li>
-      <li><a href="#storyboards-process">Where do storyboards fit into the UX and product design process?</a></li>
-      <li><a href="#storyboards-benefits">What are the benefits of storyboarding in UX design?</a></li>
-      <li><a href="#storyboards-elements">What are the key elements of a storyboard?</a></li>
-      <li><a href="#create-storyboard">How do you create a storyboard? Step-by-step guide</a></li>
-      <li><a href="#storyboarding-tools">What are the best storyboarding software and tools?</a></li>
-      <li><a href="#summary">In summary</a></li>
-    </ul>
-  </div>
+    <header>
+        <h1>For Beginners: A Guide To Storyboarding In UX Design</h1>
+        <p><strong>By Jasmine Chen</strong> &nbsp; | &nbsp; 8 Min Read &nbsp; | &nbsp; Published On Nov 10th, 2024</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="placeholder-hero-image.jpg" alt="Hero Image Placeholder" class="hero-image">
+        </section>
+
+        <section class="intro">
+            <p>
+                In user experience (UX) design, we often rely on a variety of user research methods, such as interviews 
+                and surveys, to gain insights into user needs and behaviors. We translate this data into actionable outputs 
+                such as user stories, flows, personas, and wireframes that inform our designs. While these tools help build 
+                and share our understanding, they also sometimes risk taking us away from the core of the design process: 
+                real people. The key to creating meaningful, impactful products is to dive into the lives of our users to 
+                understand their environments, the challenges they face, and how our solutions can improve their experience. 
+                This is what makes storyboarding such a powerful tool in UX design.
+            </p>
+        </section>
+
+        <section class="what-is-storyboard">
+            <h2>What Is A Storyboard?</h2>
+            <p>
+                Storyboard uses specific scripted coherent subplots to show a series of interactive actions. 
+                Storyboards are used to highlight a key interaction action, thus bringing to the fore a key task 
+                that corresponds to the entire user experience.
+            </
+            
+            
+        </section>
+
+        <section class="why-storyboard">
+            <h2>Storyboard Is Stronger Than User Persona</h2>
+            <p>
+                The reason storyboards work better than user personas is that they are better able to effectively 
+                communicate user needs and goals and are a great way for design teams to better understand the user 
+                experience so that they can turn ideas into real products. In contrast, user personas tend to fall into 
+                the causality trap of associating user behavior with irrelevant but easily tracked attributes. 
+                Storyboard, however, focuses on finding commonalities between users rather than emphasizing individual differences.
+            </p>
+            
+            <img src="placeholder-hero-image.jpg" alt="Hero Image Placeholder" class="hero-image">
+            <img src="placeholder-hero-image.jpg" alt="Hero Image Placeholder" class="hero-image">
+        </section>
+
+        <section class="steps">
+            <h2>3-Steps To Create A Good Storyboard</h2>
+            <ol>
+                <li><strong>Step 1 - Collect your user research data</strong><br>
+                    To make your storyboard more relevant to your users’ needs, the most important thing is to collect data first, 
+                    such as user interview analysis, secondary research data, and so on.
+                </li>
+                <li><strong>Step 2 - Don’t spend too much time on creating a storyboard</strong><br>
+                    You just need to make sure that this storyboard you create communicates the needs of your target users. 
+                    In order to be efficient, you shouldn’t spend time on the visuals of your storyboard.
+                </li>
+                <li><strong>Step 3 - Define your user personas and scenarios</strong><br>
+                    You need to make sure that the user personas in your storyboard are specific. In addition, in cases 
+                    where there are multiple user path scenarios, you should make sure that your storyboard corresponds 
+                    to only one user path.<br>
+                    The storyline in a storyboard should start with a specific trigger event and end with the benefits of 
+                    your proposed solution and the problems faced by the characters. In short, your storyboard should have 
+                    a clear beginning, middle, and end. This helps you better explain to stakeholders the reasons for your 
+                    proposed design solution.
+                </li>
+            </ol>
+        </section>
+
+        <section class="conclusion">
+            <h2>Conclusion</h2>
+            <p>
+                Creating a storyboard needs to be based on your user research data, yet it needs to skillfully communicate 
+                the conceptual ideas of your proposed design solution. This requires always keeping the user and the scenarios 
+                in which they use the product at the center.
+            </p>
+        </section>
+
+        <section class="resources">
+            <h2>Check Out More Resources Here:</h2>
+            <ul>
+                <li><a href="#">Storyboarding in UX Design</a></li>
+                <li><a href="#">How to make a storyboard for UX design in 5 steps</a></li>
+                <li><a href="#">Storyboards Help Visualize UX Ideas</a></li>
+                <li><a href="#">UX Storyboards: Ultimate Guide</a></li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
