@@ -107,6 +107,21 @@
             text-decoration: none;
             color: #0073e6;
         }
+
+        .why-storyboard .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Adjust spacing between images */
+            margin-top: 20px;
+        }
+
+        .why-storyboard .image-container img {
+            width: 45%; /* Adjust to ensure equal width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 8px; /* Optional: Add rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better aesthetics */
+        }
     </style>
 </head>
 <body>
@@ -126,7 +141,7 @@
 
     <main>
         <section class="hero">
-            <img src="placeholder-hero-image.jpg" alt="Hero Image Placeholder" class="hero-image">
+            <img src="https://github.com/jasmine-707/storyboard/blob/main/storyboard.jpg?raw=true" alt="storyboard" class="hero-image">
         </section>
 
         <section class="intro">
@@ -141,16 +156,13 @@
             </p>
         </section>
 
-       
-     <section class="what-is-storyboard">
+        <section class="what-is-storyboard">
             <h2>What Is A Storyboard?</h2>
             <p>
                 Storyboard uses specific scripted coherent subplots to show a series of interactive actions. 
                 Storyboards are used to highlight a key interaction action, thus bringing to the fore a key task 
                 that corresponds to the entire user experience.
             </p>
-            
-            
         </section>
 
         <section class="why-storyboard">
@@ -162,9 +174,11 @@
                 the causality trap of associating user behavior with irrelevant but easily tracked attributes. 
                 Storyboard, however, focuses on finding commonalities between users rather than emphasizing individual differences.
             </p>
-            
-            <img src="placeholder-hero-image.jpg" alt="Hero Image Placeholder" class="hero-image">
-            <img src="placeholder-hero-image.jpg" alt="Hero Image Placeholder" class="hero-image">
+
+            <div class="image-container">
+                <img src="https://github.com/jasmine-707/storyboard/blob/main/example%201.jpg?raw=true" alt="storyboard">
+                <img src="https://github.com/jasmine-707/storyboard/blob/main/persona.jpg?raw=true" alt="persona">
+            </div>
         </section>
 
         <section class="steps">
@@ -199,16 +213,16 @@
             </p>
         </section>
 
-       <section class="resources">
-    <h2>Check Out More Resources Here:</h2>
-    <ul>
-        <li><a href="https://example.com/storyboarding-ux-design">Storyboarding in UX Design</a></li>
-        <li><a href="https://example.com/make-storyboard-ux-design-5-steps">How to make a storyboard for UX design in 5 steps</a></li>
-        <li><a href="https://example.com/storyboards-visualize-ux-ideas">Storyboards Help Visualize UX Ideas</a></li>
-        <li><a href="https://example.com/ux-storyboards-ultimate-guide">UX Storyboards: Ultimate Guide</a></li>
-    </ul>
+        <section class="resources">
+            <h2>Check Out More Resources Here:</h2>
+            <ul>
+                <li><a href="https://example.com/storyboarding-ux-design">Storyboarding in UX Design</a></li>
+                <li><a href="https://example.com/make-storyboard-ux-design-5-steps">How to make a storyboard for UX design in 5 steps</a></li>
+                <li><a href="https://example.com/storyboards-visualize-ux-ideas">Storyboards Help Visualize UX Ideas</a></li>
+                <li><a href="https://example.com/ux-storyboards-ultimate-guide">UX Storyboards: Ultimate Guide</a></li>
+            </ul>
         </section>
-  
     </main>
 </body>
 </html>
+
