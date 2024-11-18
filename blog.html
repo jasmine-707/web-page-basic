@@ -1,98 +1,124 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Storyboarding in UX Design</title>
-    
-   <style>
-   
-   body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: black;
-    background: white;
-}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: black;
+            background: white;
+        }
 
-header {
-    text-align: center;
-    padding: 2em 1em;
-    background: white;
-    border-bottom: 1px solid #ddd;
-}
+        .nav {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #333;
+            padding: 1em;
+        }
 
-header h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5em;
-}
+        .nav img {
+            position: absolute;
+            left: 20px;
+            height: 50px; /* Adjust as needed */
+        }
 
-header p {
-    font-size: 0.9rem;
-}
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
 
-main {
-    width: 90%;
-    max-width: 800px;
-    margin: 2em auto;
-    background: white;
-    padding: 2em;
-    border-radius: 8px;
-}
+        .nav li {
+            margin: 0 10px;
+        }
 
-main section {
-    margin-bottom: 2em;
-}
+        .nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 0.5em;
+            transition: background 0.4s;
+        }
 
-.hero .hero-image {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin-bottom: 2em;
-    border-radius: 8px;
-    background-color: #f0f0f0;
-    /* Placeholder styling for hero image */
-}
+        .nav a:hover {
+            background: #555;
+            border-radius: 10px;
+        }
 
-main h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5em;
-}
+        header {
+            text-align: center;
+            padding: 2em 1em;
+            background: white;
+            border-bottom: 1px solid #ddd;
+        }
 
-main p,
-main ol li {
-    font-size: 1rem;
-    margin-bottom: 1em;
-}
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5em;
+        }
 
-main ol li {
-    margin-bottom: 1.5em;
-}
+        header p {
+            font-size: 0.9rem;
+        }
 
-.resources ul {
-    list-style-type: bullet points;
-    padding: 0;
-}
+        main {
+            width: 90%;
+            max-width: 800px;
+            margin: 2em auto;
+            background: white;
+            padding: 2em;
+            border-radius: 8px;
+        }
 
-.resources li {
-    margin-bottom: 0.5em;
-}
+        .hero .hero-image {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin-bottom: 2em;
+            border-radius: 8px;
+            background-color: #f0f0f0;
+        }
 
-.resources a {
-    color: black;
-    text-decoration: underline;
-    font-weight: medium;
-}
+        .resources ul {
+            list-style-type: disc;
+            padding: 0;
+            margin-left: 1.5em;
+        }
 
-.resources a:hover {
-    text-decoration: underline;
-}
- </style>
- 
+        .resources li {
+            margin-bottom: 0.5em;
+        }
+
+        .resources a {
+            color: black;
+            text-decoration: underline;
+            font-weight: medium;
+        }
+
+        .resources a:hover {
+            text-decoration: none;
+            color: #0073e6;
+        }
+    </style>
 </head>
 <body>
+    <div class="nav">
+        <img src="logo.png" alt="Logo">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul>
+    </div>
+
     <header>
         <h1>For Beginners: A Guide To Storyboarding In UX Design</h1>
         <p><strong>By Jasmine Chen</strong> &nbsp; | &nbsp; 8 Min Read &nbsp; | &nbsp; Published On Nov 10th, 2024</p>
@@ -115,13 +141,14 @@ main ol li {
             </p>
         </section>
 
-        <section class="what-is-storyboard">
+       
+     <section class="what-is-storyboard">
             <h2>What Is A Storyboard?</h2>
             <p>
                 Storyboard uses specific scripted coherent subplots to show a series of interactive actions. 
                 Storyboards are used to highlight a key interaction action, thus bringing to the fore a key task 
                 that corresponds to the entire user experience.
-            </
+            </p>
             
             
         </section>
@@ -181,7 +208,7 @@ main ol li {
                 <li><a href="#">UX Storyboards: Ultimate Guide</a></li>
             </ul>
         </section>
+  
     </main>
 </body>
 </html>
-
